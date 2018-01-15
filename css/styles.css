@@ -57,7 +57,18 @@
 }
 
 .rectangle{
-  width: 400px;
-  height: 300px;
-  border: 2px solid lightblue;
+  width: 775px;
+  height: 225px;
+  border: 1px dotted yellow;
+  text-align: center;
+  color:white;
+}
+
+hr{
+   border: 1.5px solid white;
+}
+
+#bold{
+  font-weight: bold;
+  font-size: 42.5px;
 }
