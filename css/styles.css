@@ -85,6 +85,19 @@ li{
 }
 
 
+.p-container{
+  background-color:#fffafa;
+  width:100%;
+  height:550px;
+  padding:75px;
+}
+
+.p-container li{
+  max-width: 50%;
+}
+
+
+
 /* styles ids */
 
 #nav{
@@ -158,9 +171,8 @@ li{
   padding:75px;
 }
 
-.p-container{
-  background-color: #00000;
-  width:100%;
-  height:550px;
-  padding:75px;
+#copyright{
+  float:right;
+  margin-right:15px;
+  background-color:#fffafa;
 }
