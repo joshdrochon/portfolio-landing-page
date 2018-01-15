@@ -4,7 +4,7 @@
 
 #nav{
   position:absolute;
-  z-index: 1;
+  z-index:1;
 }
 
 #nav ul {
@@ -39,36 +39,55 @@
 
 .centered {
     position: absolute;
-    top: 50%;
-    left: 50%;
+    top:50%;
+    left:50%;
     transform: translate(-50%, -50%);
 }
 
 .top-left {
     position: absolute;
-    top: 8px;
-    left: 16px;
+    top:8px;
+    left:16px;
 }
 
 .top-right {
     position: absolute;
-    top: 8px;
-    right: 16px;
+    top:8px;
+    right:16px;
 }
 
 .rectangle{
-  width: 775px;
-  height: 225px;
-  border: 1px dotted yellow;
+  width:775px;
+  height:225px;
   text-align: center;
   color:white;
+  position: relative;
+}
+
+#rect-content{
+  position: absolute;
+  top: 35px;
+  width:100%;
 }
 
 hr{
-   border: 1.5px solid white;
+   border:1.5px solid white;
+   padding:0px;
+   margin:0px;
 }
 
 #bold{
   font-weight: bold;
-  font-size: 42.5px;
+  font-size:42.5px;
+  padding:0px;
+  margin:0px;
+}
+
+#thin{
+  font-weight: lighter;
+  margin-bottom:10px;
+}
+
+#normal{
+  margin-top: 10px;
 }
